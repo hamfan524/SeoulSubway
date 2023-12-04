@@ -7,3 +7,5 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
+
+SUBWAY_API_KEY = 415378494768616d39366e4a467645

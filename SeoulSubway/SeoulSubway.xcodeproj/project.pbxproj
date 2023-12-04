@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41BD91AF2B1DA9D4004BFFF9 /* SeoulSubwayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD91AE2B1DA9D4004BFFF9 /* SeoulSubwayApp.swift */; };
+		41BD91B12B1DA9D4004BFFF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD91B02B1DA9D4004BFFF9 /* ContentView.swift */; };
+		41BD91B32B1DA9D7004BFFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BD91B22B1DA9D7004BFFF9 /* Assets.xcassets */; };
+		41BD91B72B1DA9D7004BFFF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BD91B62B1DA9D7004BFFF9 /* Preview Assets.xcassets */; };
+		41BD91BE2B1DB1EC004BFFF9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD91BD2B1DB1EC004BFFF9 /* Model.swift */; };
+		41BD91C02B1DB283004BFFF9 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD91BF2B1DB283004BFFF9 /* StartView.swift */; };
+		41BD91C22B1DB368004BFFF9 /* SubwayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD91C12B1DB368004BFFF9 /* SubwayVM.swift */; };
+		41BD91C42B1DB422004BFFF9 /* SubwayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD91C32B1DB422004BFFF9 /* SubwayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41BD91AB2B1DA9D4004BFFF9 /* SeoulSubway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeoulSubway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BD91AE2B1DA9D4004BFFF9 /* SeoulSubwayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulSubwayApp.swift; sourceTree = "<group>"; };
+		41BD91B02B1DA9D4004BFFF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41BD91B22B1DA9D7004BFFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41BD91B42B1DA9D7004BFFF9 /* SeoulSubway.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeoulSubway.entitlements; sourceTree = "<group>"; };
+		41BD91B62B1DA9D7004BFFF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41BD91BD2B1DB1EC004BFFF9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		41BD91BF2B1DB283004BFFF9 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		41BD91C12B1DB368004BFFF9 /* SubwayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayVM.swift; sourceTree = "<group>"; };
+		41BD91C32B1DB422004BFFF9 /* SubwayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayView.swift; sourceTree = "<group>"; };
+		41BD91C52B1DBD71004BFFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41BD91C92B1E0D29004BFFF9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41BD91A82B1DA9D4004BFFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41BD91A22B1DA9D4004BFFF9 = {
+			isa = PBXGroup;
+			children = (
+				41BD91AD2B1DA9D4004BFFF9 /* SeoulSubway */,
+				41BD91AC2B1DA9D4004BFFF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41BD91AC2B1DA9D4004BFFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41BD91AB2B1DA9D4004BFFF9 /* SeoulSubway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41BD91AD2B1DA9D4004BFFF9 /* SeoulSubway */ = {
+			isa = PBXGroup;
+			children = (
+				41BD91C62B1DC585004BFFF9 /* View */,
+				41BD91C72B1DC58D004BFFF9 /* ViewModel */,
+				41BD91C82B1DC595004BFFF9 /* Model */,
+				41BD91C92B1E0D29004BFFF9 /* Config.xcconfig */,
+				41BD91C52B1DBD71004BFFF9 /* Info.plist */,
+				41BD91AE2B1DA9D4004BFFF9 /* SeoulSubwayApp.swift */,
+				41BD91B22B1DA9D7004BFFF9 /* Assets.xcassets */,
+				41BD91B42B1DA9D7004BFFF9 /* SeoulSubway.entitlements */,
+				41BD91B52B1DA9D7004BFFF9 /* Preview Content */,
+			);
+			path = SeoulSubway;
+			sourceTree = "<group>";
+		};
+		41BD91B52B1DA9D7004BFFF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41BD91B62B1DA9D7004BFFF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41BD91C62B1DC585004BFFF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41BD91B02B1DA9D4004BFFF9 /* ContentView.swift */,
+				41BD91BF2B1DB283004BFFF9 /* StartView.swift */,
+				41BD91C32B1DB422004BFFF9 /* SubwayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41BD91C72B1DC58D004BFFF9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41BD91C12B1DB368004BFFF9 /* SubwayVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		41BD91C82B1DC595004BFFF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41BD91BD2B1DB1EC004BFFF9 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41BD91AA2B1DA9D4004BFFF9 /* SeoulSubway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BD91BA2B1DA9D7004BFFF9 /* Build configuration list for PBXNativeTarget "SeoulSubway" */;
+			buildPhases = (
+				41BD91A72B1DA9D4004BFFF9 /* Sources */,
+				41BD91A82B1DA9D4004BFFF9 /* Frameworks */,
+				41BD91A92B1DA9D4004BFFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeoulSubway;
+			productName = SeoulSubway;
+			productReference = 41BD91AB2B1DA9D4004BFFF9 /* SeoulSubway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41BD91A32B1DA9D4004BFFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					41BD91AA2B1DA9D4004BFFF9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 41BD91A62B1DA9D4004BFFF9 /* Build configuration list for PBXProject "SeoulSubway" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41BD91A22B1DA9D4004BFFF9;
+			productRefGroup = 41BD91AC2B1DA9D4004BFFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41BD91AA2B1DA9D4004BFFF9 /* SeoulSubway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41BD91A92B1DA9D4004BFFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BD91B72B1DA9D7004BFFF9 /* Preview Assets.xcassets in Resources */,
+				41BD91B32B1DA9D7004BFFF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41BD91A72B1DA9D4004BFFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BD91BE2B1DB1EC004BFFF9 /* Model.swift in Sources */,
+				41BD91C02B1DB283004BFFF9 /* StartView.swift in Sources */,
+				41BD91B12B1DA9D4004BFFF9 /* ContentView.swift in Sources */,
+				41BD91AF2B1DA9D4004BFFF9 /* SeoulSubwayApp.swift in Sources */,
+				41BD91C22B1DB368004BFFF9 /* SubwayVM.swift in Sources */,
+				41BD91C42B1DB422004BFFF9 /* SubwayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41BD91B82B1DA9D7004BFFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41BD91B92B1DA9D7004BFFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		41BD91BB2B1DA9D7004BFFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BD91C92B1E0D29004BFFF9 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeoulSubway/SeoulSubway.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeoulSubway/Preview Content\"";
+				DEVELOPMENT_TEAM = UAG934M4Q7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeoulSubway/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeoulSubway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41BD91BC2B1DA9D7004BFFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BD91C92B1E0D29004BFFF9 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeoulSubway/SeoulSubway.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SeoulSubway/Preview Content\"";
+				DEVELOPMENT_TEAM = UAG934M4Q7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeoulSubway/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeoulSubway;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41BD91A62B1DA9D4004BFFF9 /* Build configuration list for PBXProject "SeoulSubway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BD91B82B1DA9D7004BFFF9 /* Debug */,
+				41BD91B92B1DA9D7004BFFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BD91BA2B1DA9D7004BFFF9 /* Build configuration list for PBXNativeTarget "SeoulSubway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BD91BB2B1DA9D7004BFFF9 /* Debug */,
+				41BD91BC2B1DA9D7004BFFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41BD91A32B1DA9D4004BFFF9 /* Project object */;
+}
